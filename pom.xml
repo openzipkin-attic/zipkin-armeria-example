@@ -13,7 +13,7 @@
   <description>Example using Armeria with Zipkin to trace RPCs</description>
 
   <properties>
-    <armeria.version>0.84.0</armeria.version>
+    <armeria.version>0.85.0</armeria.version>
   </properties>
 
   <dependencies>
@@ -54,7 +54,7 @@
       <plugin>
         <inherited>true</inherited>
         <artifactId>maven-compiler-plugin</artifactId>
-        <version>3.8.0</version>
+        <version>3.8.1</version>
         <configuration>
           <source>1.8</source>
           <target>1.8</target>
